@@ -1,0 +1,4 @@
+powertools:
+  prismarineshard:
+    left-click: playsound far @a
+    right-click: weather thunder 60

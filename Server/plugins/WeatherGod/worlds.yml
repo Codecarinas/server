@@ -1,0 +1,7 @@
+# Configurations -> worlds
+world:
+  sun: true
+  rain: true
+  storm: true
+  day: true
+  night: true

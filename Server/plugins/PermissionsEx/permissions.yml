@@ -1,0 +1,69 @@
+groups:
+  default:
+    options:
+      default: true
+      rank: '5'
+    permissions:
+    - modifyworld.*
+  moderator:
+      prefix: 'Mod'
+      permissions:
+      - bukkit.command.save.*
+      - bukkit.command.ban.*
+      - bukkit.command.unban.*
+      - bukkit.command.kick.*
+      - modifyworld.*
+      options:
+        rank: '4'
+  supermod:
+      prefix: 'SuperMod'
+      permissions:
+      - bukkit.command.*
+      - bukkit.broadcast.*
+      - modifyworld.*
+      options:
+        rank: '3'
+  admin:
+      prefix: 'Admin'
+      permissions:
+      - bukkit.command.*
+      - disguise.*
+      - modifyworld.*
+      - bukkit.broadcast.*
+      options:
+        rank: '2'
+  superadmin:
+      prefix: 'SuperAdmin'
+      permissions:
+      - '*'
+      options:
+        rank: '1'
+  owner:
+      prefix: 'Own%kr'
+      permissions:
+      - '*'
+      options:
+        rank: '1'
+users:
+  DiaC_BuCk
+      group:
+      - owner
+  DiaC_gbsr6
+      group:
+      - superadmin
+  mdjsword
+      group:
+      - supermod
+  Costelloem
+      group:
+      - owner
+  asmanjava
+      group:
+      - admin
+  demonthunder345
+      group:
+      - supermod
+  snocashe
+      group:
+      - supermod
+schema-version: 1
