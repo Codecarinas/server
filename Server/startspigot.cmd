@@ -1,0 +1,1 @@
+"C:\Program Files\Java\jdk1.7.0_76\bin\java.exe" -Xms512M -Xmx1536M -XX:MaxPermSize=128M -jar spigot.jar nogui
